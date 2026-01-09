@@ -73,7 +73,8 @@ header nav ul a{
 }
 
 #hero{
-    background-color: #001931;
+    background-image: url("./assets/hero-bg.png");
+    background-color: #00193100;
     text-align: center;
 
 }
@@ -235,3 +236,31 @@ footer .footer-main {
     color: #fff;
 }
 
+footer .social {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.social-icons{
+    display: flex;
+    gap: 16px;
+}
+
+.social-icons i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-credit{
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ffffff30;
+}
+
+.footer-credit p{
+    color: #fff;
+}
