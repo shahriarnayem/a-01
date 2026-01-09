@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    line-height: 1.3em;
+}
+
+header{
+    background-color: #fff;
+}
+
+.container{
+    width: 1360px;
+    margin: 0 auto;
+}
+
+button{
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #30B868;
+    color: #fff;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+.secondary{
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #30b86900;
+    color: #fff;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+nav{
+    width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+header nav ul a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+#hero{
+    background-color: #001931;
+    text-align: center;
+
+}
+
+#hero h3{
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #30B868;
+    border-radius: 20px;
+}
+
+#hero .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 100px 0;
+    
+
+}
+
+#hero .container h1{
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+#hero .container h1 span{
+    color: #30B868;
+
+}
+#hero .container p{
+    width: 50%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 10px;
+
+}
+
+#hero .btn-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+}
