@@ -168,7 +168,35 @@ header nav ul a{
     align-items: center;
 }
 
-.solution-content{
+.knowledge-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#knowledge h3{
+    color: #30B868;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+
+.knowledge-content,
+.icon-list{
     text-align: left;
+}
+
+.icon-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+.icon-list i{
+    font-size: 16px;
+    color: #30B868;
+}
+.icon-list h4{
+    font-size: 16px;
 }
 
