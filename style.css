@@ -1,3 +1,5 @@
+/* Global Css */
+
 *{
     margin: 0;
     padding: 0;
@@ -9,10 +11,17 @@ body{
     line-height: 1.3em;
 }
 
-header{
-    background-color: #fff;
+h2{
+    color: #001931;
+    font-size: 48px;
+    line-height: 1.3em;
 }
 
+p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+}
 .container{
     max-width: 1360px;
     margin: 0 auto;
@@ -50,6 +59,13 @@ button{
     padding: 12px 16px;
     cursor: pointer;
 }
+
+/* Header css */
+
+header{
+    background-color: #fff;
+}
+
 nav{
     max-width: 1360px;
     display: flex;
@@ -72,11 +88,12 @@ header nav ul a{
     color: black;
 }
 
+/* Hero Css */
+
 #hero{
     background-image: url("./assets/hero-bg.png");
-    background-color: #00193100;
+    background-color: #00193105;
     text-align: center;
-
 }
 
 #hero h3{
@@ -123,6 +140,8 @@ header nav ul a{
     margin-top: 16px;
 }
 
+/* Features Css */
+
 #features{
     background-color: aliceblue;
 }
@@ -139,6 +158,7 @@ header nav ul a{
     padding: 64px 32px;
     background-color: #fff;
     border-radius: 16px;
+    box-shadow: 0px 0px 8px #00000006;
 }
 
 .features-card .icon{
@@ -159,6 +179,9 @@ header nav ul a{
     color: #000;
     margin-bottom: 10px;
 }
+
+/* Knowledge Css */
+
 #knowledge{
     padding: 80px 0;
     text-align: left;
@@ -191,7 +214,7 @@ header nav ul a{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-top: 16px;
+    margin-top: 32px;
 }
 .icon-list i{
     font-size: 16px;
@@ -200,6 +223,9 @@ header nav ul a{
 .icon-list h4{
     font-size: 16px;
 }
+
+/* Call to Action Css */
+
 #cta .container{
     display: flex;
     flex-direction: column;
@@ -215,6 +241,8 @@ header nav ul a{
     font-size: 16px;
     color: #555;
 }
+
+/* Footer Css */
 
 footer{
     background-color: #001931;
