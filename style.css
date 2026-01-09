@@ -199,4 +199,39 @@ header nav ul a{
 .icon-list h4{
     font-size: 16px;
 }
+#cta .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    padding: 80px;
+    margin-bottom: 80px;
+}
+
+#cta h5{
+    font-size: 16px;
+    color: #555;
+}
+
+footer{
+    background-color: #001931;
+}
+
+footer .footer-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+footer .footer-main h5{
+    font-size: 16px;
+    color: #fff;
+}
+
+footer .footer-main {
+    font-size: 16px;
+    color: #fff;
+}
 
